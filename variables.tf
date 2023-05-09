@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" { 
     description = "Name of security group" 
-    default     = "jenkins-sgroup-dec-2021" 
+    default     = "westrock" 
 }
 
 variable "tag_name" { 
@@ -24,7 +24,7 @@ variable "tag_name" {
 } 
 variable "ami_id" { 
     description = "AMI for Ubuntu Ec2 instance" 
-    default     = "ami-0ee23bfc74a881de5" 
+    default     = "ami-0aa2b7722dc1b5612" 
 }
 variable "versioning" {
     type        = bool
